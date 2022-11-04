@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#titulo-nav{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  pointer-events: none;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+  background-color: #1a1919;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #d40000;
+  border-radius: 10px;
+}
+
+#texto{
+  font-size: 19px;
+}
+
+#titulos-principais{
+  font-size: 40px;
+}
+
+#sobre{
+  padding-top: 50px;
+}
+
+#curso{
+  padding-top: 50px;
+}
+
+#pos-graduacao{
+  padding-top: 50px;
+}
+
+#mercado{
+  padding-top: 50px;
+}
+
+#depoimento{
+  padding-top: 50px;
+}
+
+#noticias{
+  padding-top: 50px;
+}
+
+nav{
+  height: 70px;
+  background: #101010;
+  z-index: 2;
+}
+.navbar-brand{
+  font-family: 'Lato';
+  margin-left: 25px;
+}
+.btn-close{
+  background-color: #FFFFFF;
+}
+nav ul{
+  justify-content: space-between !important;
+}
+nav ul li a{
+  font-weight: bold !important;
+  font-size: 16px !important;
+  line-height: 60px;
+  letter-spacing: 0.5px;
+  transition: 0.5s !important;
+}
+
+#texto-header{
+  color: #FFF;
+  font-size: 25px;
+}
+
+main{
+  background: url("../assets/img-header.jpeg") no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#links{
+  text-transform: none;
+}
+
+.titulo-header{
+  margin-top: 235px;
+  color: white;
+  font-size: 49px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 2px;
+}
+
+#tilt-comoe{
+  font-size: 25px;
+}
+
+#universidades{
+  padding-top: 75px;
+}
+
+.entrevista_video{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 0;
+    opacity: 0.3;
+}
+
+#icones{
+    color: #181818;
+}
